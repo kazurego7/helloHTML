@@ -1,0 +1,22 @@
+.btn-square {
+  display: inline-block;
+  padding: .5em 1em;
+  text-decoration: none;
+  /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  background: #668ad8;
+}
+
+.btn-square:active {
+  /*ボタンを押したとき*/
+  transform: translateY(4px);
+  /*下に動く*/
+  border-bottom: none;
+  /*線を消す*/
+}
+
+.font-kawaii {
+  font-family: serif;
+}
